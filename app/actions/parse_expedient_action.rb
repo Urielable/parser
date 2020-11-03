@@ -14,8 +14,7 @@ class ParseExpedientAction
     )
     document = Nokogiri::HTML.parse(open(uri, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE})) rescue nil
     document.class
-
-    
+   
     if document == nil
       response = "Ocurrio un problema, revisa que la ruta que proporcionaste sea correcta."
       code = 409
