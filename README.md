@@ -1,24 +1,70 @@
-# README
+# PARSER api rest
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The present documentation is for use the REST services to Parser "https://www.poderjudicialvirtual.com" api.
 
-Things you may want to cover:
+Version: 0.1.0
 
-* Ruby version
+### Requirements:
+Ruby Version: **2.6.3**
 
-* System dependencies
+Rails Version: **6.0.2**
 
-* Configuration
+PostgresQL
 
-* Database creation
+#### Installation
 
-* Database initialization
+Run:
 
-* How to run the test suite
+```
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Configuration
 
-* Deployment instructions
+You need create the enviroment variables:
 
-* ...
+```
+export PARSER_APP_DB_TEST=<database_dev_name>
+export PARSER_APP_DB_HOST=<hostDB>
+export PARSER_APP_DB_USER=<database_user>
+export PARSER_APP_DB_DEV=<database_dev_name>
+export PARSER_APP_DB_PASS=<database_user_pass>
+export PARSER_APP_DB_PRD=<database_prd>
+export SECRET_KEY_BASE=<secretKey>
+```
+
+Or modify directly teh `database.yml`, you can feel free of use any method.
+
+**Create database:**
+
+```
+rake db:create
+```
+
+Run migrations for create entities.
+
+```
+rake db:migrate
+```
+
+**Run server:**
+
+```
+rails s
+```
+
+## How to use
+
+You can use the live demo [front.jasper-project.online](front.jasper-project.online).
+
+The demo is mount in AWS EC2.
+
+You can view api docs in the [wiki](https://github.com/Urielable/parser/wiki).
+
+You can use this Postman collection [Insomnia collection](https://github.com/Urielable/kindergarten_api/blob/master/Insomnia_2020-04-28.json). 
+
+### TO-DO
+
+- Test suite
+
+
