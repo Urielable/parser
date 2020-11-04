@@ -61,7 +61,7 @@ The demo is mount in AWS EC2.
 
 You can view api docs in the [wiki](https://github.com/Urielable/parser/wiki).
 
-You can use this Postman collection [Insomnia collection](https://github.com/Urielable/kindergarten_api/blob/master/Insomnia_2020-04-28.json). 
+You can use this Postman collection [Postman collection](https://www.getpostman.com/collections/2795bb25d553385d8005).  
 
 ### TO-DO
 
