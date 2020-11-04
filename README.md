@@ -55,7 +55,7 @@ rails s
 
 ## How to use
 
-You can use the live demo [front.jasper-project.online](front.jasper-project.online).
+You can use the live demo [front.jasper-project.online](https://front.jasper-project.online).
 
 The demo is mount in AWS EC2.
 
